@@ -14,3 +14,8 @@ vim.keymap.set({ "n", "v" }, "n", "i", { noremap = true })
 vim.keymap.set({ "n", "v" }, "N", "I", { noremap = true })
 vim.keymap.set({ "n", "v" }, "<C-n>", "n", { noremap = true })
 vim.keymap.set({ "n", "v" }, "<C-N>", "N", { noremap = true })
+
+vim.cmd([[ 
+  highlight Normal guibg=NONE ctermbg=NONE 
+  highlight NonText guibg=NONE ctermbg=NONE 
+]])
